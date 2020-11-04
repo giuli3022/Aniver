@@ -59,8 +59,8 @@ namespace AniverSA.Controllers
             //SMTP
             SmtpClient protocol = new SmtpClient();
             protocol.Credentials = new NetworkCredential(getIdentification["Company_Email"], getIdentification["Company_Email_Password"]);
-            protocol.Port = 587;
-            protocol.Host = "smtp.gmail.com";
+            //protocol.Port = 587;
+            protocol.Host = "mail.aniver.com.ar";
             protocol.EnableSsl = true;
 
             //Send

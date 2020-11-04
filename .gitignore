@@ -1,6 +1,9 @@
 # Archivos para borrar
 /_borrar
 /AniverSA/ClientApp/_borrar
+/AniverSA/ClientApp/_paraborrar*
+/AniverSA/ClientApp/build/ 
+/AniverSA/.config/
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 

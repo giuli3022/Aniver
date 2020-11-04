@@ -15,7 +15,7 @@ const Footer = () => {
                     <img className="aniver-footer" src={aniver} alt="" />
                     <h2 className="subtitle-footer">Empresa constructora en Ingeniería Civil</h2>
                     <button className="links-button">
-                        <a href="#">
+                        <a href="https://wa.me/+5491153428020">
                             <img className="icon-footer" src={whatsapp} alt="" />
                         </a>
                     </button>
@@ -25,7 +25,7 @@ const Footer = () => {
                         </a>
                     </button>
                     <button className="links-button">
-                        <a href="#">
+                        <a href="mailto:info@aniver.com.ar">
                             <img className="icon-footer" src={mail} alt="" />
                         </a>
                     </button>
@@ -47,7 +47,7 @@ const Footer = () => {
                         <span>
                             <FontAwesomeIcon className="ubication-icon" icon={faMapMarkerAlt} />
                         </span>
-                    Av. 12 de Octubre N° 2966, Local 2, Quilmes Oeste
+                    Av. 12 de Octubre N° 2966, Local 2 <br/> Quilmes Oeste
                 </p>
                 </div>
             </div>

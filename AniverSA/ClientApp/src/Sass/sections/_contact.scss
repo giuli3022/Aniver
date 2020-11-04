@@ -128,11 +128,13 @@
 
 #contact-form {
     width: 50%;
-    margin: auto;
+
+    margin: auto 85px; /*auto; Ajustes Mínimos */
     @include phone {
         width: 85%;
         margin: auto;
     }
+
     @include tablet {
         width: 90%;
     }

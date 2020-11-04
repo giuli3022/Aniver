@@ -121,3 +121,18 @@
         }
     }
 }
+
+/*Ajustes Mínimos*/
+
+/*Evita que la dirección quede cortada, centrando todo el Footer */
+#footer{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/*Centra la Segunda Columna*/
+#footer>nav.footer-nav>ul{
+    padding:0px !important;
+}
+
+
