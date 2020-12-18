@@ -8,7 +8,7 @@ const Hero = props => {
         <section id="hero" className="hero">
             <div className="opacity">
                 <div className="hero-info">
-                    <h1>Mas de 30 años de trayectoria en ingeniería electromecánica</h1>
+                    <h1>Más de 30 años de trayectoria en ingeniería electromecánica</h1>
                     <a href="#contact" className="hero-button">
                         Contactanos
                         </a>

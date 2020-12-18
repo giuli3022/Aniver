@@ -15,12 +15,12 @@ const Footer = () => {
                     <img className="aniver-footer" src={aniver} alt="" />
                     <h2 className="subtitle-footer">Empresa constructora en Ingeniería Civil</h2>
                     <button className="links-button">
-                        <a href="https://wa.me/+5491153428020">
+                        <a href="https://wa.me/+5491153428020" target="_blank" rel="noreferrer">
                             <img className="icon-footer" src={whatsapp} alt="" />
                         </a>
                     </button>
                     <button className="links-button">
-                        <a href="https://www.linkedin.com/company/aniver-s-a/about/">
+                        <a href="https://www.linkedin.com/company/aniver-s-a/about/" target="_blank" rel="noreferrer" >
                             <img className="icon-footer" src={linkedin} alt="" />
                         </a>
                     </button>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </nav>
 
                 <div className="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.542542453356!2d-58.29084178481012!3d-34.74192358042389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32dd0f97de865%3A0x1f3be378881d04c!2sAv.%2012%20de%20Octubre%202966%2C%20B1879AAV%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1603650114367!5m2!1ses-419!2sar" width="300" height="200" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.542542453356!2d-58.29084178481012!3d-34.74192358042389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32dd0f97de865%3A0x1f3be378881d04c!2sAv.%2012%20de%20Octubre%202966%2C%20B1879AAV%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1603650114367!5m2!1ses-419!2sar" width="300" height="200" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                     <p>
                         <span>
                             <FontAwesomeIcon className="ubication-icon" icon={faMapMarkerAlt} />
@@ -54,7 +54,7 @@ const Footer = () => {
 
             <footer className="designed-by">
                 <p>Desarrollado por
-                    <a href="https://www.linkedin.com/in/giuliana-cecchetto/"> Giuliana Cecchetto</a>
+                    <a href="https://www.linkedin.com/in/giuliana-cecchetto/" target="_blank" rel="noreferrer"> Giuliana Cecchetto</a>
                 </p>
             </footer>
 
